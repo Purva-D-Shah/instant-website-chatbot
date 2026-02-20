@@ -14,6 +14,8 @@ Transform any website into a premium, context-aware AI sales assistant instantly
 
 
 
+https://github.com/user-attachments/assets/4ba9010b-569f-4f8a-9f27-fc8697f83950
+
 
 
 ## Installation
@@ -66,6 +68,7 @@ Open your browser to: `http://localhost:8000`
 -   **Backend**: Python, FastAPI, LangChain, ChromaDB
 -   **Frontend**: HTML, CSS, JavaScript (Vanilla)
 -   **AI**: OpenAI GPT-3.5/4
+
 
 
 
