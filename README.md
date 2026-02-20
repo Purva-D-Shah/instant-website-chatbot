@@ -12,7 +12,7 @@ Transform any website into a premium, context-aware AI sales assistant instantly
 
 ## Demo Video
 
-<video src="./assets/Demo.mp4" controls="controls" style="max-width: 100%;">
+<video src="[./assets/Demo.mp4](https://github.com/Purva-D-Shah/instant-website-chatbot/blob/main/assets/Demo.mp4)" controls="controls" style="max-width: 100%;">
   Your browser does not support the video tag.
 </video>
 
@@ -67,3 +67,4 @@ Open your browser to: `http://localhost:8000`
 -   **Backend**: Python, FastAPI, LangChain, ChromaDB
 -   **Frontend**: HTML, CSS, JavaScript (Vanilla)
 -   **AI**: OpenAI GPT-3.5/4
+
