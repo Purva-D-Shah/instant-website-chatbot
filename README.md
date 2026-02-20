@@ -23,7 +23,7 @@ https://github.com/user-attachments/assets/4ba9010b-569f-4f8a-9f27-fc8697f83950
 1.  **Clone the repository**:
     ```bash
     git clone https://github.com/Purva-D-Shah/instant-website-chatbot
-    cd web-chatbot
+    cd instant-website-chatbot
     ```
 
 2.  **Install Dependencies**:
@@ -68,6 +68,7 @@ Open your browser to: `http://localhost:8000`
 -   **Backend**: Python, FastAPI, LangChain, ChromaDB
 -   **Frontend**: HTML, CSS, JavaScript (Vanilla)
 -   **AI**: OpenAI GPT-3.5/4
+
 
 
 
