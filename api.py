@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 import uvicorn
 import sys
 import os
+import logging
 
 # Force UTF-8 encoding for stdout/stderr to prevent Windows console crashes
 if sys.platform == "win32":
@@ -18,6 +19,7 @@ import uuid
 # Load environment variables
 load_dotenv()
 
+logger = logging.getLogger(__name__)
 qa_chain = None
 sessions = {}  # In-memory session storage: {session_id: [(query, answer), ...]}
 
@@ -93,7 +95,8 @@ async def chat(message: str = Form(...), session_id: str = Form(None)):
         
         return {"response": answer, "session_id": session_id}
     except Exception as e:
-        return {"error": str(e)}
+        logger.exception("Error occurred while processing chat request")
+        return {"error": "An internal error has occurred. Please try again later."}
 
 if __name__ == "__main__":
     if not os.path.exists("static"):
